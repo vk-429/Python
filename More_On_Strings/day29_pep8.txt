@@ -1,0 +1,110 @@
+# PEP 8 is a document that provides guidelines and 
+best practices on how to write Python code. It was 
+written in 2001 by Guido van Rossum, Barry Warsaw, 
+and Nick Coghlan. The primary focus of PEP 8 is to 
+improve the readability and consistency of Python 
+code.
+
+# PEP stands for Python Enhancement Proposal, and 
+there are several of them. A PEP is a document that 
+describes new features proposed for Python and 
+documents aspects of Python, like design and style, 
+for the community.
+
+# Key Points of PEP 8:
+
+# Indentation:
+
+- Use 4 spaces per indentation level. Tabs should not be used.
+
+# Line Length:
+
+- Limit all lines to a maximum of 79 characters.
+- For comments and docstrings, limit lines to 72 
+characters.
+
+# Blank Lines:
+
+- Surround top-level function and class definitions 
+with two blank lines.
+- Method definitions inside a class are surrounded by a single blank line.
+
+# Imports:
+
+- Imports should usually be on separate lines.
+
+# Imports should be grouped in the following order: 
+- standard library imports, related third-party 
+imports, and local application/library-specific 
+imports. 
+- Each group should be separated by a blank 
+line.
+
+# Whitespace in Expressions and Statements:
+
+# Avoid extraneous whitespace in the following 
+situations:
+- Immediately inside parentheses, brackets, or braces.
+- Before a comma, semicolon, or colon.
+- Before the open parenthesis that starts the argument list of a function call.
+- Immediately before the open parenthesis that starts an indexing or slicing.
+- More than one space around an assignment (or other) operator to align it with another.
+
+# Comments:
+
+- Comments should be complete sentences.
+- Use block comments to explain code.
+- Use inline comments sparingly.
+- Use # and a single space for inline comments.
+
+# Naming Conventions:
+
+- Function names should be lowercase, with words 
+separated by underscores.
+- Variable names follow the same convention as 
+function names.
+- Class names should be in CamelCase.
+- Constants should be in all capital letters with 
+underscores separating words.
+- Use one leading underscore only for non-public 
+methods and instance variables.
+
+# String Quotes:
+
+- In Python, single-quoted and double-quoted strings 
+are the same. Use one consistently within a project. - PEP 8 recommends using double quotes for ocstrings.
+
+# Avoiding Trailing Whitespace:
+
+- Remove trailing whitespace at the end of lines.
+
+# Encapsulation:
+
+- Use leading underscores to indicate a private 
+variable or method.
+
+
+
+>>> import this
+
+The Zen of Python, by Tim Peters
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
